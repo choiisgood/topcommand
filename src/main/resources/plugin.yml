@@ -1,0 +1,16 @@
+name: TopPlugin
+version: 1.0.0
+main: com.example.topplugin.TopPlugin
+api-version: '1.21'
+description: Teleports players to the surface with /top
+
+commands:
+  top:
+    description: Teleport to the highest block at your current position
+    usage: /top
+    permission: topplugin.top
+
+permissions:
+  topplugin.top:
+    description: Allows use of /top
+    default: true
